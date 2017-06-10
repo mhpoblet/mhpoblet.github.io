@@ -1,0 +1,86 @@
+html, body {
+padding: 0;
+margin: 0;
+}
+
+body {
+    background: url(images/beach.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.namebrand {
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu a {
+    margin: 1.5rem;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+
+}
+
+#white {
+    color: white;
+}
+
+.menu a:hover {
+    -webkit-transition-duration: 0.78s;
+    transition-duration: 0.78s;
+    color: whitesmoke;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: black;
+    width: 100%;
+    font: 15px;
+}
+
+.center span {
+    font-family: 'Underwood Champion', sans-serif;
+    font-size: 2.5rem;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
