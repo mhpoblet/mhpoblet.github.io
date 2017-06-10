@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name h1 {
+    font-size: 3rem;
+    
+}
+.menu {
+    display: block;
+    text-align: center;
+}
+.menu a {
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
