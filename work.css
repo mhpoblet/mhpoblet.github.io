@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    height: 100%;
+    margin: 40px;
+    padding: 10px;
+    background-color:rgba(0,0,0,0.02)
+}
+
+.head {
+    margin-top: -15px;
+}
+
+.work {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+}
+
+.work h1 {
+    font-size: 2.5rem;
+}
+
+.menu {
+    margin-top: -15px;
+    text-align: center;
+}
+
+.menu a {
+    margin: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(45,206,201);
+}
+
+.subtext {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.socialmedia {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#icon {
+    color: rgb(45,206,201);
+    margin: 10px;
+}
