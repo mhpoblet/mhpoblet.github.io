@@ -1,21 +1,53 @@
+@media(min-width:767px) {
+    .navbar {
+        padding: 13px 0;
+                -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+}
+
 .navbar-inverse {
     margin-bottom: 0!important;
     color: black !important;
-    background-color: transparent!important;
-    border-color: transparent!important; 
+    background: transparent!important;
+    border-color: transparent!important; */
     font-family: 'Raleway';
     font-size: 25px;
     font-size: 1.8rem;
     letter-spacing: 6px;
 }
 
-
-.navbar-inverse a:hover {
-    -webkit-transition-duration: 0.78s!important;
-    transition-duration: 0.78s!important;
-    transition-property: rgb(2,196,186);
+.navbar-nav>li>a:hover{
+    color: rgb(2,196,186)!important;
 }
 
+.collapse.in{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+.spacer{
+   background-color:#888;  
+}
+
+.spacer {
+    height: 70px;
+}
+
+
+.navbar-inverse a:hover {
+    -webkit-transition-duration: 0.58s!important;
+    transition-duration: 0.58s!important;
+}
+
+.icon-bar {
+    background-color: black!important;
+}
 
 .jumbotron {
     height: 100vh;
