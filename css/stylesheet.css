@@ -1,0 +1,51 @@
+.navbar-inverse {
+    margin-bottom: 0!important;
+    color: black !important;
+    background-color: transparent!important;
+    border-color: transparent!important; 
+    font-family: 'Raleway';
+  
+    letter-spacing: 6px;
+}
+
+
+.navbar-inverse a:hover {
+    -webkit-transition-duration: 0.78s!important;
+    transition-duration: 0.78s!important;
+    transition-property: rgb(2,196,186);
+}
+
+
+.jumbotron {
+    height: 100vh;
+    background-color: transparent!important;
+}
+
+#name {
+    font-family: 'Muli', sans-serif;
+    color: rgb(2,196,186);
+}
+
+#blue {
+    color: rgb(2,196,186);
+    font-weight: 700;
+}
+#social {
+    border: 1px solid grey;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+#social  {
+    text-align: center;
+}
+
+#social a{
+    margin: 10px;
+    color: black;
+}
+
+#follow {
+    letter-spacing: 3px;
+    font-weight: 900; 
+}
