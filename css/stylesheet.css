@@ -1,7 +1,7 @@
 @media(min-width:767px) {
     .navbar {
         padding: 13px 0;
-                -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
@@ -14,12 +14,11 @@
 .navbar-inverse {
     margin-bottom: 0!important;
     color: black !important;
-    background: transparent!important;
     border-color: transparent!important; */
     font-family: 'Raleway';
     font-size: 25px;
     font-size: 1.8rem;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 
 .navbar-nav>li>a:hover{
@@ -45,9 +44,6 @@
     transition-duration: 0.58s!important;
 }
 
-.icon-bar {
-    background-color: black!important;
-}
 
 .jumbotron {
     height: 100vh;

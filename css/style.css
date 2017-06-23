@@ -48,7 +48,7 @@ html, body {
     color: whitesmoke;
 }
 
-.navbar-default .nav-justified a:visited {
+.navbar-inverse .nav-justified a:visited {
     color: darkslategrey;
 }
 
