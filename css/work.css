@@ -28,10 +28,12 @@ html, body {
 
 .jumbotron p {
     font-size:26px!important;
+    font-family: 'Zilla Slab', serif;
+}
 }
 
 .jumbotron h1 {
-    font-size: 65px!important;
+    font-size: 60px!important;
     font-size: 2rem;
 }
 
