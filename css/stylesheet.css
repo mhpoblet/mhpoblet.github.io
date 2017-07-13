@@ -14,16 +14,20 @@
 
 .navbar-inverse {
     margin-bottom: 0!important;
-    color: black !important;
     border-color: transparent!important; */
     font-family: 'Raleway';
     font-size: 25px;
     font-size: 1.8rem;
     letter-spacing: 4px;
+    background: rgba(2,196,186,1)!important;
 }
 
 .navbar-nav>li>a:hover{
-    color: rgb(2,196,186)!important;
+    color:whitesmoke!important;
+}
+
+.active a{
+    background: rgba(2,196,186,1)!important;
 }
 
 .collapse.in{
@@ -43,18 +47,19 @@
 }
 
 .space {
-    height: 60px;   
+    height: 60px;
 }
+
 .jumbotron {
     height: 100vh;
     background-color: transparent!important;
 }
 
 #name {
-    font-family: 'Raleway', sans-serif;
+   font-family: 'Raleway', sans-serif;
     color: rgb(2,196,186);
-    text-align: center;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 #blue {
