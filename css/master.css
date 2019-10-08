@@ -1,0 +1,70 @@
+body {
+ background-image: url('beach_opt.jpg');
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0)!important;
+}
+
+.nav-link {
+  /*color: rgb(84,167,174)!important;*/
+  color: white!important;
+  font-weight: 700;
+   text-shadow: 0 0 3px rgb(0,0,0);
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-family: Raleway;
+  letter-spacing: 1.5px;
+
+}
+li {
+  padding: 10px!important;
+}
+
+.headline {
+  font-family: Raleway;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20em!important;
+  text-align: center;
+  margin-top: 5%;
+  font-weight: 700!important;
+  background-color: transparent!important;
+}
+
+.speak {
+    margin-top: 68px;
+    font-size: 2em;
+    font-family: 'Raleway', 'Nunito', sans-serif;
+}
+
+.headline2 {
+  text-align: center;
+  margin-top: -10%;
+  background-color: transparent!important;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
